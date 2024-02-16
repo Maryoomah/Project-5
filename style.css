@@ -15,6 +15,14 @@
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 700px) {
+  .one {
+    padding: 20px;
+  }
+  .two {
+    background-color: blue;
+  }
+}
 
 #food {
   width: 400px;
@@ -27,12 +35,4 @@
 }
 body {
   font-size: 16px;
-}
-@media screen and (max-width: 700px) {
-  .one {
-    padding: 20px;
-  }
-  .two {
-    background-color: blue;
-  }
 }
