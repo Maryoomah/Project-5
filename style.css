@@ -30,9 +30,9 @@ body {
 }
 @media screen and (max-width: 767px) {
   .one {
-    padding: 20px;
+    padding: 20px !important;
   }
   .two {
-    background-color: blue;
+    background-color: blue !important;
   }
 }
