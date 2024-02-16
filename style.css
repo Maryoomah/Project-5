@@ -28,8 +28,11 @@
 body {
   font-size: 16px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .one {
     padding: 20px;
+  }
+  .two {
+    background-color: blue;
   }
 }
