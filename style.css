@@ -1,17 +1,30 @@
 .one {
-    width: 100%;
-    height: max-content; 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-image: url(./p2.jpg);
-    padding:50px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
-.para1 {font-weight: bold; text-align: justify;}
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./p2.jpg);
+  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para1 {
+  font-weight: bold;
+  text-align: justify;
+}
 
-.two { background-color: beige;
-display: flex;
-justify-content: space-between;}
+.two {
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+}
 
-#food { width: 400px;}
-#pastries { width: 400px;}
-#smoothies { width: 400px;}
+#food {
+  width: 400px;
+}
+#pastries {
+  width: 400px;
+}
+#smoothies {
+  width: 400px;
+}
+body {
+  font-size: 16px;
+}
