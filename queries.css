@@ -2,6 +2,20 @@
   .homepage {
     font-size: 16px;
   }
+  .first {
+    padding: 0 10px;
+  }
+
+  .a {
+    margin-right: 20px;
+  }
+
+  .imgs1,
+  .imgs2 {
+    flex-direction: column;
+  }
+
+  /* others*/
   .contactus {
     font-size: 16px;
   }
