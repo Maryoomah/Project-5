@@ -1,23 +1,147 @@
+.homepage {
+  font-size: 18px;
+}
+.blogpage {
+  font-size: 18px;
+}
+.aboutpage {
+  font-size: 18px;
+}
+.contactus {
+  font-size: 18px;
+}
+.menupage {
+  font-size: 18px;
+}
+.first {
+  background-color: green;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+  padding: 0 50px;
+}
+.a {
+  margin-right: 600px;
+}
+.discount {
+  border: solid whitesmoke;
+  border-radius: 15px;
+  margin: 4px 0;
+  transition: background-color 0.3s ease;
+}
 .one {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(./p2.jpg);
-  padding: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.one button {
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.third {
+  background-color: green;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 25px 50px;
+}
+h1 {
+  color: white;
 }
 .para1 {
   font-weight: bold;
-  text-align: justify;
+  color: white;
+  font-size: 20px;
+  font-family: "montserrat";
+}
+.third button {
+  border-radius: 10px;
+
+  padding: 10px 10px;
 }
 
-.two {
-  background-color: beige;
+/*
+.images {
+  display: flex;
+  /*justify-content: space-between;*/
+/*
+.images2 {
+  display: flex;
+}*/
+#contactdetails {
+  background-color: green;
+  color: white;
+}
+a {
+  color: white;
+}
+.imgs1 {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 700px) {
+.imgs2 {
+  display: flex;
+  justify-content: space-between;
+}
+/* blog page styling */
+#home {
+  color: wheat;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+.all-blog {
+  background-color: olivedrab;
+  color: white;
+  font-family: "montserrat";
+  font-size: large;
+}
+/*Contact Us */
+.form {
+  background-color: green;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+}
+/*back button */
+.backbtn {
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+/*About Us */
+.aboutus {
+  background-color: green;
+  color: white;
 }
 
+.aboutuscontent {
+  font-family: "Monteserrat";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: justify;
+  word-spacing: 3px;
+  line-height: 40px;
+  background-color: green;
+  color: white;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+/*Menu*/
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  background-color: green;
+  color: white;
+  font-family: montserrat;
+}
 #food {
   width: 400px;
 }

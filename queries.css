@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+  .homepage {
+    font-size: 16px;
+  }
+  .contactus {
+    font-size: 16px;
+  }
+  .aboutpage {
+    font-size: 16px;
+  }
+  .menupage {
+    font-size: 16px;
+  }
+  .blogpage {
+    font-size: 16px;
+  }
+}
