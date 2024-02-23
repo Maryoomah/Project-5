@@ -3,40 +3,54 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Page</title>
+    <script
+      src="https://kit.fontawesome.com/2bb2d448fb.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
   </head>
   <body class="contactus">
+    <div class="one">
+      <a href="index.html"><button>Home</button></a>
+      <a href="about.html"><button>About us</button></a>
+      <a href="blog.html"><button>Blog</button></a>
+      <a href="Menu.html"><button>Menu</button> </a>
+    </div>
     <div class="form">
       <h1>Contact Us</h1>
       <form>
-        <label for="name">Name:</label>
+        <label for="name" class="name">Name:</label>
         <input type="text" id="name" name="name" required /> <br />
         <br />
-        <label for="email">Email:</label>
+        <label for="email" class="email">Email:</label>
         <input type="text" id="email" name="email" required /> <br />
         <br />
-
-        <label for="subject">Subject:</label>
+        <label for="subject" class="subject">Subject:</label>
         <input type="text" id="subject" name="subject" required /> <br /><br />
-
         <label for="message">Message:</label>
         <textarea
           id="message"
           name="message"
-          cols="40"
-          rows="20"
+          cols="60"
+          rows="30"
           required
         ></textarea>
         <br />
         <br />
-
-        <input type="submit" value="Submit" /> <br />
+         <input type="submit" value="Submit" /> <br />
         <br />
-        <a href="index.html"
-          ><button type="button" class="backbtn">Back</button></a
-        >
       </form>
     </div>
+    <div class="social-media">
+      <h2>Follow Us:</h2>
+      <i class="fab fa-facebook"> : Edibles By Aisha</i>
+      <br /><br />
+      <i class="fab fa-twitter"> : @edibles_by_Aisha</i>
+      <br /><br />
+      <i class="fab fa-instagram">: edibles_by_Aisha</i></a
+      ><br /><br />
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.8312658943532!2d3.3083967999999997!3d6.5429802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8e37680734e5%3A0xb8635cd319f4842f!2sNnpc%20Rd%2C%20Ejigbo%2C%20Lagos%20102214%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2ssa!4v1708714425049!5m2!1sen!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </body>
 </html>
